@@ -2,8 +2,6 @@
 
 Ce programme simule une machine de Turing basée sur un ensemble de règles définies dans un dictionnaire.
 
----
-
 ## Structure du ruban
 
 ```python
@@ -16,8 +14,6 @@ state = "A"                 # état initial
 * `head` : position de lecture/écriture
 * `state` : état actuel de la machine
 
----
-
 ## Format des règles
 
 ```python
@@ -28,8 +24,6 @@ state = "A"                 # état initial
 * `<` : déplacement vers la gauche
 * `"HALT"` : arrêt de la machine
 
----
-
 ## Règles de transition
 
 ```python
@@ -37,8 +31,6 @@ rules = {
     # à compléter
 }
 ```
-
----
 
 ## Fonctionnement
 
@@ -50,8 +42,6 @@ rules = {
 4. Déplacement de la tête
 5. Changement d’état
 6. Affichage de l’état du ruban
-
----
 
 ## Boucle principale
 
@@ -81,15 +71,11 @@ while state != "HALT":
     print("Ruban:", "".join(tape), "Tête:", head, "Etat:", state)
 ```
 
----
-
 ## Résultat final
 
 ```python
 print("Ruban final :", "".join(tape))
 ```
-
----
 
 ## Objectif
 
